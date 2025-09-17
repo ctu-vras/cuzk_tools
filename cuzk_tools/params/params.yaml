@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    use_sim_time: False
+    utm_zone: 33N
+    followed_tf: base_link
+    reference_tf: utm

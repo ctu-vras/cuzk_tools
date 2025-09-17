@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: BSD-3-Clause -->
+<!-- SPDX-FileCopyrightText: Czech Technical University in Prague -->
+
+<launch>
+    <node pkg="cuzk_tools" exec="elevation_odom" name="elevation_odom_node" output="screen">
+        <param name="use_sim_time" value="true" />
+        <param name="utm_zone" value="33N" />
+
+        <remap from="odom" to="gps_odom" />
+    </node>
+</launch>

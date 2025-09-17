@@ -1,0 +1,6 @@
+std_msgs/Header header
+string name
+
+cuzk_tools_interfaces/PointArray points
+cuzk_tools_interfaces/LineStringArray linestrings
+# jsk_recognition_msgs/PolygonArray polygons

@@ -1,6 +1,0 @@
-Header header
-string name
-
-cuzk_tools/PointArray points
-cuzk_tools/LineStringArray linestrings
-jsk_recognition_msgs/PolygonArray polygons
